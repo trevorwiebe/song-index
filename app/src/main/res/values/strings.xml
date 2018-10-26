@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Song Index</string>
+
+
+    Main Activity
+    <string name="add_new_song">Add new song</string>
+
+    Add Song activity
+    <string name="song_name">Name</string>
+    <string name="poet_name">Poet</string>
+    <string name="composer_name">Composer</string>
+    <string name="is_copyrighted_text">Is this song copyrighted?</string>
+    <string name="select_song_btn_text">Select a Song</string>
+    <string name="upload_btn">Upload</string>
+
 </resources>

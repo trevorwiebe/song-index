@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "735355246700",
+    "firebase_url": "https://song-index.firebaseio.com",
+    "project_id": "song-index",
+    "storage_bucket": "song-index.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735355246700:android:5e85f20abc85b9cc",
+        "android_client_info": {
+          "package_name": "com.trevorwiebe.songindex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735355246700-tr4gq8c4jsgv967u5i9sptb093bmsot1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZG_cDvzfgIzeHhsojBiQNIklSVeaaMSQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
