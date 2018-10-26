@@ -1,4 +1,4 @@
-package com.trevorwiebe.songindex;
+    package com.trevorwiebe.songindex;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
