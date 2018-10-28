@@ -1,42 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <EditText
             android:id="@+id/song_name"
-            android:hint="@string/song_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_marginLeft="16dp" />
+            android:layout_marginTop="16dp"
+            android:ems="13"
+            android:hint="@string/song_name"
+            android:inputType="textCapSentences" />
 
         <EditText
             android:id="@+id/poet_name"
-            android:hint="@string/poet_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_marginLeft="16dp" />
+            android:layout_marginTop="16dp"
+            android:ems="13"
+            android:hint="@string/poet_name"
+            android:inputType="textCapSentences" />
 
         <EditText
             android:id="@+id/composer_name"
-            android:hint="@string/composer_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_marginLeft="16dp" />
+            android:layout_marginTop="16dp"
+            android:ems="13"
+            android:hint="@string/composer_name"
+            android:inputType="textCapSentences" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/is_copyrighted_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/is_copyrighted_text"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="selectSongToUpload"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/select_song_btn_text"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/view_song_before_uploading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/view_song_before_uploading" />
+
+        <Button
+            android:id="@+id/upload_song_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="24dp"
+            android:background="@color/colorAccent"
+            android:onClick="uploadSong"
+            android:padding="16dp"
+            android:text="@string/upload_btn"
+            android:textColor="@android:color/white" />
 
     </LinearLayout>
 

@@ -12,5 +12,8 @@
     <string name="is_copyrighted_text">Is this song copyrighted?</string>
     <string name="select_song_btn_text">Select a Song</string>
     <string name="upload_btn">Upload</string>
+    <string name="view_song_before_uploading">View song before uploading</string>
+    <string name="uploading_song">Uploading song</string>
+    <string name="cancel_upload">Cancel Upload</string>
 
 </resources>

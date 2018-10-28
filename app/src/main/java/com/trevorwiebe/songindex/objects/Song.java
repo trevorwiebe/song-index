@@ -12,9 +12,9 @@ public class Song {
     private String url;
     private boolean isCopyRighted;
     private long dateAdded;
-    private int songId;
+    private String songId;
 
-    public Song(String name, String poet, String composer, String url, boolean isCopyRighted, long dateAdded, int songId) {
+    public Song(String name, String poet, String composer, String url, boolean isCopyRighted, long dateAdded, String songId) {
         this.name = name;
         this.poet = poet;
         this.composer = composer;
@@ -72,11 +72,11 @@ public class Song {
         this.dateAdded = dateAdded;
     }
 
-    public int getSongId() {
+    public String getSongId() {
         return songId;
     }
 
-    public void setSongId(int songId) {
+    public void setSongId(String songId) {
         this.songId = songId;
     }
 }
