@@ -24,6 +24,8 @@ public class Song {
         this.songId = songId;
     }
 
+    public Song(){}
+
     public String getName() {
         return name;
     }
